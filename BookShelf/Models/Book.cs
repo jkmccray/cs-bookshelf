@@ -11,6 +11,7 @@ namespace BookShelf.Models
         public int ISBN { get; set; }
         [Required]
         public string Title { get; set; }
+        [Required]
         public string Genre { get; set; }
         public DateTime PublishDate { get; set; }
         [Required]
